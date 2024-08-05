@@ -1,0 +1,14 @@
+1. Command to build package and be able to change the code without rebuilding package: 
+colcon build --symling-install
+
+2. If --symlink-install doesen't work or there is any problem while building package that points to setuptools,
+check setuptools version (pip3 list | grep setuptools) and if version is 59.6.0 downgrade to 58.2.0
+(pip3 install setuptools==58.2.0). Also to use this flag the file containing the node (.py) has to be executable.
+
+3. If you want to run the same node multiple times you need to change it's 
+name. To do that use this command: 
+ros2 run <package_name> <exec_name> --ros-args -r __node:=<new_name> 
+
+4. rqt_graph lets you monitor all the active nodes in a visual representation
+
+
