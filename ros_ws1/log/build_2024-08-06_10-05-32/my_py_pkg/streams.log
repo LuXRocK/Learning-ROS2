@@ -1,0 +1,25 @@
+[1.618s] Invoking command in '/root/ros2_ws/build/my_py_pkg': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[2.133s] running develop
+[2.402s] running egg_info
+[2.403s] creating my_py_pkg.egg-info
+[2.405s] writing my_py_pkg.egg-info/PKG-INFO
+[2.409s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.412s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.416s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.418s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.421s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.436s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.445s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.449s] running build_ext
+[2.451s] Creating /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.457s] Installing py_node script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.463s] Installing robot_news_station script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.471s] 
+[2.473s] Installed /root/ros2_ws/build/my_py_pkg
+[2.475s] running symlink_data
+[2.476s] creating /root/ros2_ws/install/my_py_pkg/share/ament_index
+[2.478s] creating /root/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[2.479s] creating /root/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.482s] symbolically linking /root/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /root/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.484s] symbolically linking /root/ros2_ws/build/my_py_pkg/package.xml -> /root/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.545s] Invoked command in '/root/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/my_py_pkg/build --no-deps symlink_data

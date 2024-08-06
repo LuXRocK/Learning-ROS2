@@ -1,3 +1,9 @@
+0. When using docker add these lines to bashrc:
+source /opt/ros/humble/setup.bash
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+source ~/ros2_ws/install/setup.bash
+Depending on the exact location.
+
 1. Command to build package and be able to change the code without rebuilding package: 
 colcon build --symling-install
 
@@ -11,4 +17,12 @@ ros2 run <package_name> <exec_name> --ros-args -r __node:=<new_name>
 
 4. rqt_graph lets you monitor all the active nodes in a visual representation
 
+5. To display all ros topics run:
+ros2 topic list 
+
+6. To display message from exact topic run:
+ros2 topic echo /<name_of_topic>
+
+7. If colcon build doesn't work (can't create or some other error) try deleting
+build, install and log directories, and run it again.
 
