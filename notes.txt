@@ -26,3 +26,6 @@ ros2 topic echo /<name_of_topic>
 7. If colcon build doesn't work (can't create or some other error) try deleting
 build, install and log directories, and run it again.
 
+8. If you  want to have 2 publishers (one from node and one from terminal), 
+to the same topic you have to first run the publisher from node and then 
+the terminal.

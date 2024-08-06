@@ -6,16 +6,19 @@ from example_interfaces.msg import String
 
 class SmartphoneNode(Node): #CHANGE NAME
     def __init__(self):
-        super().__init__("Smartphone") #CHANGE NAME
+        super().__init__("smartphone") #CHANGE NAME
 
-        self.subscriber_ = self.create_subscribtion()
+        self.subscriber_ = self.create_subscription(String, "robot_news", self.callback_robot_news, 10)
         self.get_logger().info("Smartphone has been started")
+ 
+    def callback_robot_news(self, msg):
+        self.get_logger().info(msg.data)
         
 def main(args=None):
     rclpy.init(args=args)
     node = SmartphoneNode() #CHANGE NAME
     rclpy.spin(node)
-    rclpy.shutdown()
+    rclpy.shutdown() 
 
 if __name__ == "__main__":
     main()
