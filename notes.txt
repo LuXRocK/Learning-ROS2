@@ -29,3 +29,18 @@ build, install and log directories, and run it again.
 8. If you  want to have 2 publishers (one from node and one from terminal), 
 to the same topic you have to first run the publisher from node and then 
 the terminal.
+
+9. When working with services, use verbs in the service's name. When making callback function, call it "callback"  + <name_of_service>
+
+10. When creating a client its always better to use call_async instead of regular call. When using async function we declare a future object (future = client.call_async(request)) so later we can istead of using regular rclpy.spin use rclpy.spin_until_future_complete, that takes 2 arguments, node and future object.
+
+11. Catching response errors: 
+    try:
+        response = future.result()
+    except Exception as e:
+        node.get_logger().error("Service call failed %r" % (e,))
+12. partial let's you insert more arguments when calling a function as a argument of another function if that makes sense. Example:
+        future.add_done_callback(partial(self.callback_call_add_two_ints, a=a, b=b))
+the callback function takes 3 arguments (future, a, b) but when we use it as an argument for add_done_callback it would only take future, but by using partial (from functools import partial) we can define the rest of the arguments.
+
+13. Remember when you start a server and change it's name at runtime (--ros-args) you also have to change the client's destination name the same way.
