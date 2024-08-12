@@ -11,7 +11,7 @@ actual project.
 
 ##Run through Docker 
 Since ROS2 works on Ubuntu 22.04 in order to run it on a different machine you have to use Docker. To run a docker container that will be able to display GUI run this command: <br> 
-'''bash
+```bash
 docker run -it --rm \
   --net=host \
   --env="DISPLAY" \
@@ -20,10 +20,10 @@ docker run -it --rm \
   --name ros2 \
   -v /home/Samuel/Learning-ROS2/ros_ws1:/root/ros2_ws \
   osrf/ros:humble-desktop
-'''
-After that run: <br> 
-'''bash
+```
+After that run: <br>
+```bash
 xhost +local:docker
-'''
+```
 If everything works fine you should be able to run rqt in the container. <br>
 I'm still working on how to get the same result on Mac but there's a lot of troubleshooting there.
