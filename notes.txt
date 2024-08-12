@@ -44,3 +44,12 @@ the terminal.
 the callback function takes 3 arguments (future, a, b) but when we use it as an argument for add_done_callback it would only take future, but by using partial (from functools import partial) we can define the rest of the arguments.
 
 13. Remember when you start a server and change it's name at runtime (--ros-args) you also have to change the client's destination name the same way.
+
+docker run -it --rm \
+  --net=host \
+  --env="DISPLAY" \
+  --env="QT_X11_NO_MITSHM=1" \
+  --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+  --name ros2 \
+  -v /home/Samuel/Learning-ROS2/ros_ws1:/root/ros2_ws \
+  osrf/ros:humble-desktop
