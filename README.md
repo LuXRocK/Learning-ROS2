@@ -32,4 +32,23 @@ After that, in your local bash run: <br>
 xhost +local:docker
 ```
 If everything works fine you should be able to run rqt in the container. <br>
-I'm still working on how to get the same result on Mac but there's a lot of troubleshooting there.
+
+## Running on Mac 
+After a long and painful troubleshooting I finally came with a solution 
+that seems to work on Mac <br>
+You need to have XQuartz running in and make sure that in advanced settings
+you selected "Allow connections from network clients". If you do that go back 
+to terminal. <br>
+First run: <br>
+```bash
+xhost + 127.0.0.1
+```
+Then use this command to start a new docker container: <br>
+```bash
+docker run -it \
+  -e DISPLAY=host.docker.internal:0 \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v ~/Learning-ROS2/ros_ws1:/root/ros2_ws \
+  ros2
+```
+
