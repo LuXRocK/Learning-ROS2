@@ -9,7 +9,7 @@ to deliver a 3D mapping drone, using SLAM technology. <br>
 I have created a notes.txt file in which I'll be writing down important information that might turn out to be useful in the
 actual project. 
 
-##Run through Docker 
+## Run through Docker 
 Since ROS2 works on Ubuntu 22.04 in order to run it on a different machine you have to use Docker.<br>
 First build the Dockerfile, to do that run: <br>
 ```bash 
