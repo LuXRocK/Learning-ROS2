@@ -45,6 +45,8 @@ the callback function takes 3 arguments (future, a, b) but when we use it as an 
 
 13. Remember when you start a server and change it's name at runtime (--ros-args) you also have to change the client's destination name the same way.
 
+14. After building the package with masseges the msg will be in install/local/lib and so on folder.
+
 docker run -it --rm \
   --net=host \
   --env="DISPLAY" \
@@ -52,4 +54,4 @@ docker run -it --rm \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
   --name ros2 \
   -v /home/Samuel/Learning-ROS2/ros_ws1:/root/ros2_ws \
-  osrf/ros:humble-desktop
+  ros2

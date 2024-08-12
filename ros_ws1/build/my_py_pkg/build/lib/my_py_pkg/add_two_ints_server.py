@@ -8,7 +8,7 @@ class AddTwoIntsServerNode(Node): #CHANGE NAME
     def __init__(self):
         super().__init__("add_two_ints_server") #CHANGE NAME
         self.server_ = self.create_service(AddTwoInts, "add_two_ints", self.callback_add_two_ints)
-
+        self.get_logger().info("Add two ints server has been started.")
 
     def callback_add_two_ints(self, request, response):
         response.sum = request.a + request.b

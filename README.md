@@ -10,7 +10,13 @@ I have created a notes.txt file in which I'll be writing down important informat
 actual project. 
 
 ##Run through Docker 
-Since ROS2 works on Ubuntu 22.04 in order to run it on a different machine you have to use Docker. To run a docker container that will be able to display GUI run this command: <br> 
+Since ROS2 works on Ubuntu 22.04 in order to run it on a different machine you have to use Docker.<br>
+First build the Dockerfile, to do that run: <br>
+```bash 
+docker build -t ros2 .
+```
+While in the directory with Dockerfile. <br>
+Then start a docker container that will be able to display GUI with this command: <br> 
 ```bash
 docker run -it --rm \
   --net=host \
@@ -19,9 +25,9 @@ docker run -it --rm \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
   --name ros2 \
   -v /home/Samuel/Learning-ROS2/ros_ws1:/root/ros2_ws \
-  osrf/ros:humble-desktop
+  ros2
 ```
-After that run: <br>
+After that, in your local bash run: <br>
 ```bash
 xhost +local:docker
 ```
