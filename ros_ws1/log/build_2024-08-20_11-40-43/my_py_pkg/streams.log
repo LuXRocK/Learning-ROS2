@@ -1,0 +1,28 @@
+[1.948s] Invoking command in '/root/ros2_ws/build/my_py_pkg': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[2.926s] running develop
+[3.336s] running egg_info
+[3.338s] writing my_py_pkg.egg-info/PKG-INFO
+[3.340s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[3.343s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[3.345s] writing requirements to my_py_pkg.egg-info/requires.txt
+[3.348s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[3.377s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.396s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.402s] running build_ext
+[3.404s] Creating /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[3.411s] Installing add_two_ints_client script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.419s] Installing add_two_ints_client_no_oop script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.427s] Installing add_two_ints_server script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.436s] Installing battery_node script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.441s] Installing hw_status_publisher script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.445s] Installing led_panel_node script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.452s] Installing number_counter script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.457s] Installing number_publisher script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.463s] Installing py_node script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.468s] Installing reset_counter_client_node script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.474s] Installing robot_news_station script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.480s] Installing smartphone script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.487s] 
+[3.488s] Installed /root/ros2_ws/build/my_py_pkg
+[3.489s] running symlink_data
+[3.592s] Invoked command in '/root/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
