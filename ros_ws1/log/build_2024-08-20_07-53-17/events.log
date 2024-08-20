@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.001082] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.004076] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.004469] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.060572] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.068999] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/my_robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_robot_interfaces'], 'cwd': '/root/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('HOSTNAME', 'c7b0db0e92de'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.102592] (-) TimerEvent: {}
+[0.212169] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.221476] (-) TimerEvent: {}
+[0.323224] (-) TimerEvent: {}
+[0.425019] (-) TimerEvent: {}
+[0.526166] (-) TimerEvent: {}
+[0.614035] (my_robot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.627295] (-) TimerEvent: {}
+[0.670267] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.680277] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.687280] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.728128] (-) TimerEvent: {}
+[0.772579] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.829093] (-) TimerEvent: {}
+[0.930196] (-) TimerEvent: {}
+[1.032227] (-) TimerEvent: {}
+[1.133092] (-) TimerEvent: {}
+[1.235016] (-) TimerEvent: {}
+[1.336201] (-) TimerEvent: {}
+[1.438267] (-) TimerEvent: {}
+[1.540107] (-) TimerEvent: {}
+[1.610446] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.641181] (-) TimerEvent: {}
+[1.743138] (-) TimerEvent: {}
+[1.844996] (-) TimerEvent: {}
+[1.947139] (-) TimerEvent: {}
+[2.049308] (-) TimerEvent: {}
+[2.151074] (-) TimerEvent: {}
+[2.253185] (-) TimerEvent: {}
+[2.280282] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.354026] (-) TimerEvent: {}
+[2.456222] (-) TimerEvent: {}
+[2.558043] (-) TimerEvent: {}
+[2.659112] (-) TimerEvent: {}
+[2.760991] (-) TimerEvent: {}
+[2.863111] (-) TimerEvent: {}
+[2.964008] (-) TimerEvent: {}
+[3.065125] (-) TimerEvent: {}
+[3.127727] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.166130] (-) TimerEvent: {}
+[3.192242] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.270390] (-) TimerEvent: {}
+[3.303205] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.307269] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.312276] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.371120] (-) TimerEvent: {}
+[3.474405] (-) TimerEvent: {}
+[3.575988] (-) TimerEvent: {}
+[3.677401] (-) TimerEvent: {}
+[3.713491] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.778117] (-) TimerEvent: {}
+[3.880123] (-) TimerEvent: {}
+[3.982030] (-) TimerEvent: {}
+[4.083079] (-) TimerEvent: {}
+[4.183980] (-) TimerEvent: {}
+[4.285053] (-) TimerEvent: {}
+[4.387162] (-) TimerEvent: {}
+[4.489191] (-) TimerEvent: {}
+[4.591063] (-) TimerEvent: {}
+[4.692533] (-) TimerEvent: {}
+[4.796272] (-) TimerEvent: {}
+[4.863639] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.897725] (-) TimerEvent: {}
+[4.999280] (-) TimerEvent: {}
+[5.046116] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/my_robot_interfaces\n'}
+[5.060874] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[5.062720] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[5.067816] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/my_robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('HOSTNAME', 'c7b0db0e92de'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[5.101330] (-) TimerEvent: {}
+[5.203807] (-) TimerEvent: {}
+[5.306144] (-) TimerEvent: {}
+[5.384964] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[5.407017] (-) TimerEvent: {}
+[5.480575] (my_robot_interfaces) StderrLine: {'line': b"failed to create symbolic link '/root/ros2_ws/build/my_robot_interfaces/ament_cmake_python/my_robot_interfaces/my_robot_interfaces' because existing path cannot be removed: Is a directory\n"}
+[5.483369] (my_robot_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces] Error 1\n'}
+[5.485728] (my_robot_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces.dir/all] Error 2\n'}
+[5.488034] (my_robot_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.490104] (my_robot_interfaces) StdoutLine: {'line': b'[  2%] Built target my_robot_interfaces__cpp\n'}
+[5.507976] (-) TimerEvent: {}
+[5.609652] (-) TimerEvent: {}
+[5.621354] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[5.626155] (my_robot_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.632002] (my_robot_interfaces) CommandEnded: {'returncode': 2}
+[5.709985] (-) TimerEvent: {}
+[5.811364] (-) TimerEvent: {}
+[5.939621] (-) TimerEvent: {}
+[6.050079] (-) TimerEvent: {}
+[6.152101] (-) TimerEvent: {}
+[6.253972] (-) TimerEvent: {}
+[6.356021] (-) TimerEvent: {}
+[6.457015] (-) TimerEvent: {}
+[6.558028] (-) TimerEvent: {}
+[6.658950] (-) TimerEvent: {}
+[6.745013] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 2}
+[6.760339] (-) EventReactorShutdown: {}

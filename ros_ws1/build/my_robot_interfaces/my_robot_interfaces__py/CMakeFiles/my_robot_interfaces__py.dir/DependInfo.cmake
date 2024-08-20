@@ -17,9 +17,13 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/__init__.py" "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status.py" "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c" "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_led_state_array.py" "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_led_state_array_s.c" "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/__init__.py" "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py" "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c" "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_set_led_panel.py" "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_set_led_panel_s.c" "/root/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

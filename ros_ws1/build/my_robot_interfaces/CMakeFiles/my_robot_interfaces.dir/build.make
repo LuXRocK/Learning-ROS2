@@ -67,9 +67,13 @@ include CMakeFiles/my_robot_interfaces.dir/compiler_depend.make
 include CMakeFiles/my_robot_interfaces.dir/progress.make
 
 CMakeFiles/my_robot_interfaces: /root/ros2_ws/src/my_robot_interfaces/msg/HardwareStatus.msg
+CMakeFiles/my_robot_interfaces: /root/ros2_ws/src/my_robot_interfaces/msg/LedStateArray.msg
 CMakeFiles/my_robot_interfaces: /root/ros2_ws/src/my_robot_interfaces/srv/ComputeRectangleArea.srv
 CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Request.msg
 CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Response.msg
+CMakeFiles/my_robot_interfaces: /root/ros2_ws/src/my_robot_interfaces/srv/SetLedPanel.srv
+CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/SetLedPanel_Request.msg
+CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/SetLedPanel_Response.msg
 
 my_robot_interfaces: CMakeFiles/my_robot_interfaces
 my_robot_interfaces: CMakeFiles/my_robot_interfaces.dir/build.make
