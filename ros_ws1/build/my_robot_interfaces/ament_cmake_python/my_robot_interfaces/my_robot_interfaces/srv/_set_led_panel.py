@@ -61,12 +61,12 @@ class SetLedPanel_Request(metaclass=Metaclass_SetLedPanel_Request):
 
     _fields_and_field_types = {
         'led_number': 'int64',
-        'state': 'boolean',
+        'state': 'int64',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -74,7 +74,7 @@ class SetLedPanel_Request(metaclass=Metaclass_SetLedPanel_Request):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.led_number = kwargs.get('led_number', int())
-        self.state = kwargs.get('state', bool())
+        self.state = kwargs.get('state', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -140,8 +140,10 @@ class SetLedPanel_Request(metaclass=Metaclass_SetLedPanel_Request):
     def state(self, value):
         if __debug__:
             assert \
-                isinstance(value, bool), \
-                "The 'state' field must be of type 'bool'"
+                isinstance(value, int), \
+                "The 'state' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'state' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._state = value
 
 

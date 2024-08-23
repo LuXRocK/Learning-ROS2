@@ -64,8 +64,8 @@ bool my_robot_interfaces__srv__set_led_panel__request__convert_from_py(PyObject 
     if (!field) {
       return false;
     }
-    assert(PyBool_Check(field));
-    ros_message->state = (Py_True == field);
+    assert(PyLong_Check(field));
+    ros_message->state = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
 
@@ -103,7 +103,7 @@ PyObject * my_robot_interfaces__srv__set_led_panel__request__convert_to_py(void 
   }
   {  // state
     PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->state ? 1 : 0);
+    field = PyLong_FromLongLong(ros_message->state);
     {
       int rc = PyObject_SetAttrString(_pymessage, "state", field);
       Py_DECREF(field);

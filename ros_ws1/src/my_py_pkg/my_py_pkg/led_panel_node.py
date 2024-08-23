@@ -8,7 +8,14 @@ from my_robot_interfaces.srv import SetLedPanel
 class LedPanelNode(Node): #CHANGE NAME
     def __init__(self):
         super().__init__("led_panel_node") #CHANGE NAME
-        self.led_panel_ = [0, 0, 1]
+
+        self.declare_parameter("led_states", [0, 0, 0])
+
+        self.led_panel_ = self.get_parameter("led_states").value
+        for state in self.led_panel_:
+            if state not in [0, 1]:
+                self.get_logger().warn("Wrong input states")
+                return 0
         self.led_status_publisher_ = self.create_publisher(LedStateArray, "led_status", 10)
         self.timer_ = self.create_timer(4, self.publish_led_status)
         self.server_ = self.create_service(SetLedPanel, "set_led_panel", self.callback_set_led_panel)
