@@ -47,6 +47,10 @@ the callback function takes 3 arguments (future, a, b) but when we use it as an 
 
 14. After building the package with masseges the msg will be in install/local/lib and so on folder.
 
+15. If something is not working while colcon building I found that the best solution is to delete all folders except src, and build packages again. 
+
+16. When creating lauch file for projects start by creating new package and then make .launch.py file in launch folder of the new package, always make "generate_launch_description()" function.
+Docker for linux: 
 docker run -it --rm \
   --net=host \
   --env="DISPLAY" \
@@ -54,4 +58,11 @@ docker run -it --rm \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
   --name ros2 \
   -v /home/Samuel/Learning-ROS2/ros_ws1:/root/ros2_ws \
+  ros2
+
+Docker for mac:
+docker run -it \
+  -e DISPLAY=host.docker.internal:0 \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v ~/Learning-ROS2/ros_ws1:/root/ros2_ws \
   ros2
