@@ -1,2 +1,4 @@
-/root/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
-/root/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl
+/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLedPanel.idl
