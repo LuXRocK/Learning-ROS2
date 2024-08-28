@@ -1,0 +1,16 @@
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

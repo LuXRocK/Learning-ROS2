@@ -1,7 +1,0 @@
-[0.011s] Invoking command in '/home/samuel/Learning_ROS/ros_ws1/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/samuel/Learning_ROS/ros_ws1/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samuel/Learning_ROS/ros_ws1/install/my_robot_bringup
-[0.027s] [31mCMake Error at CMakeLists.txt:5 (if):
-[0.027s]   Flow control statements are not properly nested.
-[0.027s] 
-[0.027s] [0m
-[0.028s] -- Configuring incomplete, errors occurred!
-[0.030s] Invoked command in '/home/samuel/Learning_ROS/ros_ws1/build/my_robot_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/samuel/Learning_ROS/ros_ws1/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samuel/Learning_ROS/ros_ws1/install/my_robot_bringup
