@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.061s] [ 50%] Built target cpp_node
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[3.196s] [100%] [32m[1mLinking CXX executable robot_news_station[0m
+[3.352s] [100%] Built target robot_news_station
+[3.362s] Invoked command in '/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg -- -j12 -l12
+[3.396s] Invoking command in '/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg
+[3.402s] -- Install configuration: ""
+[3.402s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[3.402s] -- Installing: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[3.404s] -- Set runtime path of "/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[3.404s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.405s] -- Installing: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.405s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.407s] Invoked command in '/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg

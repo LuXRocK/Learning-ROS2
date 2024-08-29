@@ -1,6 +1,9 @@
 /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg/CMakeFiles/uninstall.dir
 /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg/CMakeFiles/my_cpp_pkg_uninstall.dir
 /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg/CMakeFiles/cpp_node.dir
+/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg/CMakeFiles/robot_news_station.dir
+/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg/CMakeFiles/smartphone.dir
+/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg/CMakeFiles/add_two_ints_server.dir
 /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg/CMakeFiles/test.dir
 /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir
