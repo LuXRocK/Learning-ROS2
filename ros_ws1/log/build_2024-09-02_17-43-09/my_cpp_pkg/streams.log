@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg -- -j12 -l12
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[0.060s] [ 50%] Built target cpp_node
+[0.060s] [ 60%] Built target add_two_ints_server
+[0.060s] [ 70%] Built target smartphone
+[0.060s] [ 80%] Built target robot_news_station
+[0.065s] [ 90%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[2.675s] [100%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[2.857s] [100%] Built target add_two_ints_client_no_oop
+[2.868s] Invoked command in '/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg -- -j12 -l12
+[2.909s] Invoking command in '/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg
+[2.916s] -- Install configuration: ""
+[2.917s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[2.918s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[2.919s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[2.920s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[2.920s] -- Installing: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[2.921s] -- Set runtime path of "/home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""
+[2.921s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.921s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.922s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.922s] -- Installing: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.922s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.922s] -- Installing: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.922s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.922s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.922s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.922s] -- Installing: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.922s] -- Installing: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.923s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.923s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.923s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.923s] -- Up-to-date: /home/samuel/Learning_ROS/ros_ws1/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.925s] Invoked command in '/home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/samuel/Learning_ROS/ros_ws1/build/my_cpp_pkg
