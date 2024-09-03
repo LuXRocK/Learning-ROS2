@@ -1,0 +1,294 @@
+[0.000000] (-) TimerEvent: {}
+[0.000823] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001534] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.002278] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.024802] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/root/ros2_ws/install/my_robot_interfaces')])}
+[0.029014] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.097105] (-) TimerEvent: {}
+[0.143704] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.155542] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.159180] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('HOSTNAME', 'a5cb0e3d86bc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/root/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.198280] (-) TimerEvent: {}
+[0.299369] (-) TimerEvent: {}
+[0.401146] (-) TimerEvent: {}
+[0.503321] (-) TimerEvent: {}
+[0.606351] (-) TimerEvent: {}
+[0.723138] (-) TimerEvent: {}
+[0.834206] (-) TimerEvent: {}
+[0.884037] (my_cpp_pkg) StdoutLine: {'line': b'[ 14%] Built target robot_news_station\n'}
+[0.936258] (-) TimerEvent: {}
+[0.937530] (my_cpp_pkg) StdoutLine: {'line': b'[ 28%] Built target add_two_ints_server\n'}
+[1.013857] (my_cpp_pkg) StdoutLine: {'line': b'[ 42%] Built target cpp_node\n'}
+[1.037644] (-) TimerEvent: {}
+[1.039732] (my_cpp_pkg) StdoutLine: {'line': b'[ 57%] Built target smartphone\n'}
+[1.138113] (-) TimerEvent: {}
+[1.190300] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_status_publisher\x1b[0m\n'}
+[1.239054] (-) TimerEvent: {}
+[1.245996] (my_cpp_pkg) StdoutLine: {'line': b'[ 71%] Built target add_two_ints_client\n'}
+[1.295001] (my_cpp_pkg) StdoutLine: {'line': b'[ 85%] Built target add_two_ints_client_no_oop\n'}
+[1.340812] (-) TimerEvent: {}
+[1.443284] (-) TimerEvent: {}
+[1.544443] (-) TimerEvent: {}
+[1.647979] (-) TimerEvent: {}
+[1.754128] (-) TimerEvent: {}
+[1.856370] (-) TimerEvent: {}
+[1.958199] (-) TimerEvent: {}
+[2.060071] (-) TimerEvent: {}
+[2.161490] (-) TimerEvent: {}
+[2.263267] (-) TimerEvent: {}
+[2.281798] (my_cpp_pkg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o\x1b[0m\n'}
+[2.365062] (-) TimerEvent: {}
+[2.469326] (-) TimerEvent: {}
+[2.645350] (-) TimerEvent: {}
+[2.747078] (-) TimerEvent: {}
+[2.848454] (-) TimerEvent: {}
+[2.951098] (-) TimerEvent: {}
+[3.055012] (-) TimerEvent: {}
+[3.156712] (-) TimerEvent: {}
+[3.279659] (-) TimerEvent: {}
+[3.385544] (-) TimerEvent: {}
+[3.489052] (-) TimerEvent: {}
+[3.591588] (-) TimerEvent: {}
+[3.696502] (-) TimerEvent: {}
+[3.798167] (-) TimerEvent: {}
+[3.904770] (-) TimerEvent: {}
+[4.009407] (-) TimerEvent: {}
+[4.111504] (-) TimerEvent: {}
+[4.223267] (-) TimerEvent: {}
+[4.325473] (-) TimerEvent: {}
+[4.428299] (-) TimerEvent: {}
+[4.531946] (-) TimerEvent: {}
+[4.634162] (-) TimerEvent: {}
+[4.736415] (-) TimerEvent: {}
+[4.837528] (-) TimerEvent: {}
+[4.938525] (-) TimerEvent: {}
+[5.039731] (-) TimerEvent: {}
+[5.141439] (-) TimerEvent: {}
+[5.243889] (-) TimerEvent: {}
+[5.368950] (-) TimerEvent: {}
+[5.471273] (-) TimerEvent: {}
+[5.572692] (-) TimerEvent: {}
+[5.711168] (-) TimerEvent: {}
+[5.815883] (-) TimerEvent: {}
+[5.918143] (-) TimerEvent: {}
+[6.020025] (-) TimerEvent: {}
+[6.125757] (-) TimerEvent: {}
+[6.229032] (-) TimerEvent: {}
+[6.358440] (-) TimerEvent: {}
+[6.460082] (-) TimerEvent: {}
+[6.561577] (-) TimerEvent: {}
+[6.698248] (-) TimerEvent: {}
+[6.800700] (-) TimerEvent: {}
+[6.902503] (-) TimerEvent: {}
+[7.003691] (-) TimerEvent: {}
+[7.127005] (-) TimerEvent: {}
+[7.235177] (-) TimerEvent: {}
+[7.338870] (-) TimerEvent: {}
+[7.443382] (-) TimerEvent: {}
+[7.544572] (-) TimerEvent: {}
+[7.649131] (-) TimerEvent: {}
+[7.811744] (-) TimerEvent: {}
+[7.915940] (-) TimerEvent: {}
+[8.027924] (-) TimerEvent: {}
+[8.128984] (-) TimerEvent: {}
+[8.256763] (-) TimerEvent: {}
+[8.361993] (-) TimerEvent: {}
+[8.464075] (-) TimerEvent: {}
+[8.567725] (-) TimerEvent: {}
+[8.672004] (-) TimerEvent: {}
+[8.828665] (-) TimerEvent: {}
+[8.940293] (-) TimerEvent: {}
+[9.044031] (-) TimerEvent: {}
+[9.145673] (-) TimerEvent: {}
+[9.246761] (-) TimerEvent: {}
+[9.364451] (-) TimerEvent: {}
+[9.467023] (-) TimerEvent: {}
+[9.569943] (-) TimerEvent: {}
+[9.671788] (-) TimerEvent: {}
+[9.773867] (-) TimerEvent: {}
+[9.877330] (-) TimerEvent: {}
+[9.995808] (-) TimerEvent: {}
+[10.115297] (-) TimerEvent: {}
+[10.220342] (-) TimerEvent: {}
+[10.325525] (-) TimerEvent: {}
+[10.514637] (-) TimerEvent: {}
+[10.616211] (-) TimerEvent: {}
+[10.724034] (-) TimerEvent: {}
+[10.826100] (-) TimerEvent: {}
+[11.012346] (-) TimerEvent: {}
+[11.115163] (-) TimerEvent: {}
+[11.217403] (-) TimerEvent: {}
+[11.320013] (-) TimerEvent: {}
+[11.422275] (-) TimerEvent: {}
+[11.523648] (-) TimerEvent: {}
+[11.630164] (-) TimerEvent: {}
+[11.733228] (-) TimerEvent: {}
+[11.834720] (-) TimerEvent: {}
+[11.936093] (-) TimerEvent: {}
+[12.037629] (-) TimerEvent: {}
+[12.140181] (-) TimerEvent: {}
+[12.241645] (-) TimerEvent: {}
+[12.344496] (-) TimerEvent: {}
+[12.447071] (-) TimerEvent: {}
+[12.548737] (-) TimerEvent: {}
+[12.651269] (-) TimerEvent: {}
+[12.753915] (-) TimerEvent: {}
+[12.856202] (-) TimerEvent: {}
+[12.959963] (-) TimerEvent: {}
+[13.067128] (-) TimerEvent: {}
+[13.169138] (-) TimerEvent: {}
+[13.271206] (-) TimerEvent: {}
+[13.390101] (-) TimerEvent: {}
+[13.499108] (-) TimerEvent: {}
+[13.600529] (-) TimerEvent: {}
+[13.706727] (-) TimerEvent: {}
+[13.808693] (-) TimerEvent: {}
+[13.909824] (-) TimerEvent: {}
+[14.011034] (-) TimerEvent: {}
+[14.112910] (-) TimerEvent: {}
+[14.214942] (-) TimerEvent: {}
+[14.317914] (-) TimerEvent: {}
+[14.420205] (-) TimerEvent: {}
+[14.522186] (-) TimerEvent: {}
+[14.626101] (-) TimerEvent: {}
+[14.728139] (-) TimerEvent: {}
+[14.829629] (-) TimerEvent: {}
+[14.994347] (-) TimerEvent: {}
+[15.097119] (-) TimerEvent: {}
+[15.198583] (-) TimerEvent: {}
+[15.300175] (-) TimerEvent: {}
+[15.404125] (-) TimerEvent: {}
+[15.505604] (-) TimerEvent: {}
+[15.606624] (-) TimerEvent: {}
+[15.707622] (-) TimerEvent: {}
+[15.808647] (-) TimerEvent: {}
+[15.909710] (-) TimerEvent: {}
+[16.010662] (-) TimerEvent: {}
+[16.111752] (-) TimerEvent: {}
+[16.213179] (-) TimerEvent: {}
+[16.314942] (-) TimerEvent: {}
+[16.416444] (-) TimerEvent: {}
+[16.517672] (-) TimerEvent: {}
+[16.619146] (-) TimerEvent: {}
+[16.720634] (-) TimerEvent: {}
+[16.822102] (-) TimerEvent: {}
+[16.924037] (-) TimerEvent: {}
+[17.025578] (-) TimerEvent: {}
+[17.126896] (-) TimerEvent: {}
+[17.228047] (-) TimerEvent: {}
+[17.329601] (-) TimerEvent: {}
+[17.431035] (-) TimerEvent: {}
+[17.532590] (-) TimerEvent: {}
+[17.634075] (-) TimerEvent: {}
+[17.736030] (-) TimerEvent: {}
+[17.837686] (-) TimerEvent: {}
+[17.938632] (-) TimerEvent: {}
+[18.039688] (-) TimerEvent: {}
+[18.140588] (-) TimerEvent: {}
+[18.241566] (-) TimerEvent: {}
+[18.342783] (-) TimerEvent: {}
+[18.443957] (-) TimerEvent: {}
+[18.545575] (-) TimerEvent: {}
+[18.647192] (-) TimerEvent: {}
+[18.749012] (-) TimerEvent: {}
+[18.850120] (-) TimerEvent: {}
+[18.951593] (-) TimerEvent: {}
+[19.053225] (-) TimerEvent: {}
+[19.154628] (-) TimerEvent: {}
+[19.255572] (-) TimerEvent: {}
+[19.356574] (-) TimerEvent: {}
+[19.457812] (-) TimerEvent: {}
+[19.559099] (-) TimerEvent: {}
+[19.660582] (-) TimerEvent: {}
+[19.761987] (-) TimerEvent: {}
+[19.863846] (-) TimerEvent: {}
+[19.966157] (-) TimerEvent: {}
+[20.068042] (-) TimerEvent: {}
+[20.169658] (-) TimerEvent: {}
+[20.271169] (-) TimerEvent: {}
+[20.372694] (-) TimerEvent: {}
+[20.474151] (-) TimerEvent: {}
+[20.576056] (-) TimerEvent: {}
+[20.678297] (-) TimerEvent: {}
+[20.780311] (-) TimerEvent: {}
+[20.882038] (-) TimerEvent: {}
+[20.984281] (-) TimerEvent: {}
+[21.086088] (-) TimerEvent: {}
+[21.189016] (-) TimerEvent: {}
+[21.291296] (-) TimerEvent: {}
+[21.393248] (-) TimerEvent: {}
+[21.495129] (-) TimerEvent: {}
+[21.608126] (-) TimerEvent: {}
+[21.680637] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hardware_status_publisher\x1b[0m\n'}
+[21.709227] (-) TimerEvent: {}
+[21.812382] (-) TimerEvent: {}
+[21.917237] (-) TimerEvent: {}
+[22.019565] (-) TimerEvent: {}
+[22.125835] (-) TimerEvent: {}
+[22.230354] (-) TimerEvent: {}
+[22.332182] (-) TimerEvent: {}
+[22.434113] (-) TimerEvent: {}
+[22.536203] (-) TimerEvent: {}
+[22.690075] (-) TimerEvent: {}
+[22.792342] (-) TimerEvent: {}
+[22.894217] (-) TimerEvent: {}
+[22.996258] (-) TimerEvent: {}
+[23.098429] (-) TimerEvent: {}
+[23.200565] (-) TimerEvent: {}
+[23.301995] (-) TimerEvent: {}
+[23.407411] (-) TimerEvent: {}
+[23.508662] (-) TimerEvent: {}
+[23.526468] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target hardware_status_publisher\n'}
+[23.609614] (-) TimerEvent: {}
+[23.630374] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[23.709991] (-) TimerEvent: {}
+[23.811109] (-) TimerEvent: {}
+[23.913774] (-) TimerEvent: {}
+[24.015066] (-) TimerEvent: {}
+[24.116141] (-) TimerEvent: {}
+[24.218704] (-) TimerEvent: {}
+[24.320072] (-) TimerEvent: {}
+[24.421210] (-) TimerEvent: {}
+[24.492104] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[24.522312] (-) TimerEvent: {}
+[24.624131] (-) TimerEvent: {}
+[24.707337] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/my_cpp_pkg'], 'cwd': '/root/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('HOSTNAME', 'a5cb0e3d86bc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/root/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[24.724501] (-) TimerEvent: {}
+[24.755952] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.759333] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[24.766567] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[24.778361] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[24.788660] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[24.794530] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[24.802354] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[24.808204] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[24.811463] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[24.816388] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[24.821089] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[24.826704] (-) TimerEvent: {}
+[24.848248] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[24.858667] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[24.885795] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[24.889797] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[24.893318] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[24.895942] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[24.914155] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[24.927271] (-) TimerEvent: {}
+[24.937483] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[24.942700] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[24.945197] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[24.948731] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[24.963727] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[25.028157] (-) TimerEvent: {}
+[25.130642] (-) TimerEvent: {}
+[25.233183] (-) TimerEvent: {}
+[25.335139] (-) TimerEvent: {}
+[25.438033] (-) TimerEvent: {}
+[25.541155] (-) TimerEvent: {}
+[25.643386] (-) TimerEvent: {}
+[25.746036] (-) TimerEvent: {}
+[25.848135] (-) TimerEvent: {}
+[25.950203] (-) TimerEvent: {}
+[26.051988] (-) TimerEvent: {}
+[26.074882] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[26.091252] (-) EventReactorShutdown: {}

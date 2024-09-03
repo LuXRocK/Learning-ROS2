@@ -1,0 +1,41 @@
+[0.253s] Invoking command in '/root/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /root/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_robot_bringup
+[0.856s] -- The C compiler identification is GNU 11.4.0
+[1.249s] -- The CXX compiler identification is GNU 11.4.0
+[1.311s] -- Detecting C compiler ABI info
+[2.149s] -- Detecting C compiler ABI info - done
+[2.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.208s] -- Detecting C compile features
+[2.213s] -- Detecting C compile features - done
+[2.264s] -- Detecting CXX compiler ABI info
+[2.995s] -- Detecting CXX compiler ABI info - done
+[3.052s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.056s] -- Detecting CXX compile features
+[3.059s] -- Detecting CXX compile features - done
+[3.168s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.893s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.523s] -- Configuring done
+[5.773s] -- Generating done
+[5.839s] -- Build files have been written to: /root/ros2_ws/build/my_robot_bringup
+[5.846s] Invoked command in '/root/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /root/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_robot_bringup
+[5.858s] Invoking command in '/root/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /root/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[6.103s] Invoked command in '/root/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /root/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[6.646s] Invoking command in '/root/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /root/ros2_ws/build/my_robot_bringup
+[6.688s] -- Install configuration: ""
+[6.690s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch
+[6.705s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py
+[6.724s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[6.748s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[6.768s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[6.789s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[6.809s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[6.827s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[6.845s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[6.862s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[6.877s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[6.906s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[6.921s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[6.944s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[6.962s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[6.980s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[7.002s] -- Installing: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[7.031s] Invoked command in '/root/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /root/ros2_ws/build/my_robot_bringup

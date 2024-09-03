@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/samuel/Learning_ROS/ros_ws1/src/my_robot_interfaces
-# Build directory: /home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces
+# Source directory: /root/ros2_ws/src/my_robot_interfaces
+# Build directory: /root/ros2_ws/build/my_robot_interfaces
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

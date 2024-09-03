@@ -1,0 +1,36 @@
+[0.150s] Invoking command in '/root/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /root/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.858s] [ 14%] Built target robot_news_station
+[0.912s] [ 28%] Built target add_two_ints_server
+[0.994s] [ 42%] Built target cpp_node
+[1.013s] [ 57%] Built target smartphone
+[1.165s] [35m[1mConsolidate compiler generated dependencies of target hardware_status_publisher[0m
+[1.222s] [ 71%] Built target add_two_ints_client
+[1.267s] [ 85%] Built target add_two_ints_client_no_oop
+[2.255s] [ 92%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[21.653s] [100%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[23.498s] [100%] Built target hardware_status_publisher
+[23.602s] Invoked command in '/root/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /root/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[24.680s] Invoking command in '/root/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /root/ros2_ws/build/my_cpp_pkg
+[24.728s] -- Install configuration: ""
+[24.732s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[24.740s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[24.750s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[24.761s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[24.767s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[24.775s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[24.781s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[24.784s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[24.788s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[24.797s] -- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[24.826s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[24.834s] -- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[24.859s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[24.863s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[24.866s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[24.870s] -- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[24.888s] -- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[24.911s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[24.915s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[24.918s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[24.926s] -- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[24.939s] Invoked command in '/root/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /root/ros2_ws/build/my_cpp_pkg

@@ -1,12 +1,12 @@
 {
   "package_name": "my_robot_interfaces",
-  "output_dir": "/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces",
+  "output_dir": "/root/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
-    "/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl",
-    "/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
-    "/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLedPanel.idl"
+    "/root/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
+    "/root/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl",
+    "/root/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
+    "/root/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLedPanel.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -17,9 +17,9 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
-    "/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStateArray.idl",
-    "/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
-    "/home/samuel/Learning_ROS/ros_ws1/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLedPanel.idl"
+    "/root/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
+    "/root/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStateArray.idl",
+    "/root/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
+    "/root/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLedPanel.idl"
   ]
 }

@@ -1,0 +1,75 @@
+[0.127s] Invoking command in '/root/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /root/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.267s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.657s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.747s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.762s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.774s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.957s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.960s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.831s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.971s] -- Found my_robot_interfaces: 0.0.0 (/root/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[2.399s] -- Configuring done
+[2.459s] [33mCMake Warning (dev) at CMakeLists.txt:30 (add_executable):
+[2.461s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.463s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.466s]   command to set the policy and suppress this warning.
+[2.469s] 
+[2.471s]   File:
+[2.474s] 
+[2.475s]     /root/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp
+[2.476s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.478s] [0m
+[2.479s] [33mCMake Warning (dev) at CMakeLists.txt:33 (add_executable):
+[2.481s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.483s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.485s]   command to set the policy and suppress this warning.
+[2.489s] 
+[2.491s]   File:
+[2.498s] 
+[2.500s]     /root/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp
+[2.506s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.509s] [0m
+[2.512s] [33mCMake Warning (dev) at CMakeLists.txt:36 (add_executable):
+[2.515s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.516s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.519s]   command to set the policy and suppress this warning.
+[2.524s] 
+[2.527s]   File:
+[2.529s] 
+[2.532s]     /root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp
+[2.535s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.538s] [0m
+[3.319s] -- Generating done
+[3.415s] -- Build files have been written to: /root/ros2_ws/build/my_cpp_pkg
+[3.739s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[3.743s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[3.752s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[3.761s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[5.054s] [ 21%] Built target add_two_ints_server
+[5.061s] [ 28%] Built target robot_news_station
+[5.096s] [ 50%] Built target smartphone
+[5.105s] [ 57%] Built target cpp_node
+[5.203s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[5.207s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[5.323s] [ 64%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[6.244s] [ 78%] Built target add_two_ints_client_no_oop
+[6.316s] [ 92%] Built target add_two_ints_client
+[13.180s] [01m[K/root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:[m[K In constructor ‘[01m[KHardwareStatusPublisher::HardwareStatusPublisher()[m[K’:
+[13.184s] [01m[K/root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[13.186s]     9 |             [01;31m[Kpub_[m[K=this->create_publisher<my_robot_interfaces::msg::HardwareStatus>(
+[13.188s]       |             [01;31m[K^~~~[m[K
+[13.209s] [01m[K/root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:11:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[13.210s]    11 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1),
+[13.215s]       |             [01;31m[K^~~~~~[m[K
+[13.216s]       |             [32m[Ktimer_t[m[K
+[13.240s] [01m[K/root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid HardwareStatusPublisher::publishHardwareStatus()[m[K’:
+[13.245s] [01m[K/root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[13.246s]    23 |             [01;31m[Kpub_[m[K->publish(msg);
+[13.248s]       |             [01;31m[K^~~~[m[K
+[14.961s] gmake[2]: *** [CMakeFiles/hardware_status_publisher.dir/build.make:76: CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o] Error 1
+[14.969s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/hardware_status_publisher.dir/all] Error 2
+[14.971s] gmake: *** [Makefile:146: all] Error 2
+[14.973s] Invoked command in '/root/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /root/ros2_ws/build/my_cpp_pkg -- -j4 -l4
