@@ -4,6 +4,9 @@ source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 source ~/ros2_ws/install/setup.bash
 Depending on the exact location.
 
+Build python package:
+ros2 pkg create <name> --build-type ament_python --dependencies rclpy
+
 1. Command to build package and be able to change the code without rebuilding package: 
 colcon build --symling-install
 
