@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.001057] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.003707] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.004112] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.004447] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/root/ros2_ws/install/my_robot_interfaces')])}
+[0.004728] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.079249] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.084347] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.095356] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('HOSTNAME', 'a5cb0e3d86bc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/root/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.160304] (-) TimerEvent: {}
+[0.262584] (-) TimerEvent: {}
+[0.327745] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.363632] (-) TimerEvent: {}
+[0.464850] (-) TimerEvent: {}
+[0.566661] (-) TimerEvent: {}
+[0.668693] (-) TimerEvent: {}
+[0.771153] (-) TimerEvent: {}
+[0.773948] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.871546] (-) TimerEvent: {}
+[0.882847] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.890937] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.911798] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.939610] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.972747] (-) TimerEvent: {}
+[0.976608] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.073720] (-) TimerEvent: {}
+[1.100179] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.108705] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.174622] (-) TimerEvent: {}
+[1.275828] (-) TimerEvent: {}
+[1.378488] (-) TimerEvent: {}
+[1.492281] (-) TimerEvent: {}
+[1.594624] (-) TimerEvent: {}
+[1.678667] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.695708] (-) TimerEvent: {}
+[1.798656] (-) TimerEvent: {}
+[1.860094] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.899472] (-) TimerEvent: {}
+[2.021808] (-) TimerEvent: {}
+[2.056659] (my_cpp_pkg) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/root/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[2.163536] (-) TimerEvent: {}
+[2.281853] (-) TimerEvent: {}
+[2.385598] (-) TimerEvent: {}
+[2.487632] (-) TimerEvent: {}
+[2.521147] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.548978] (my_cpp_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:30 (add_executable):\n'}
+[2.550679] (my_cpp_pkg) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[2.552504] (my_cpp_pkg) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[2.554641] (my_cpp_pkg) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[2.556348] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[2.559238] (my_cpp_pkg) StderrLine: {'line': b'  File:\n'}
+[2.561136] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[2.562867] (my_cpp_pkg) StderrLine: {'line': b'    /root/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp\n'}
+[2.564319] (my_cpp_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.565754] (my_cpp_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.567224] (my_cpp_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:33 (add_executable):\n'}
+[2.568244] (my_cpp_pkg) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[2.569504] (my_cpp_pkg) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[2.570968] (my_cpp_pkg) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[2.572466] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[2.574036] (my_cpp_pkg) StderrLine: {'line': b'  File:\n'}
+[2.576544] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[2.578318] (my_cpp_pkg) StderrLine: {'line': b'    /root/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp\n'}
+[2.580678] (my_cpp_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.582567] (my_cpp_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.587080] (my_cpp_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:36 (add_executable):\n'}
+[2.589069] (-) TimerEvent: {}
+[2.589929] (my_cpp_pkg) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[2.592225] (my_cpp_pkg) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[2.665700] (my_cpp_pkg) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[2.670145] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[2.680002] (my_cpp_pkg) StderrLine: {'line': b'  File:\n'}
+[2.685046] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[2.688186] (my_cpp_pkg) StderrLine: {'line': b'    /root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp\n'}
+[2.690616] (-) TimerEvent: {}
+[2.691554] (my_cpp_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.694120] (my_cpp_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.791342] (-) TimerEvent: {}
+[2.895529] (-) TimerEvent: {}
+[2.997775] (-) TimerEvent: {}
+[3.100639] (-) TimerEvent: {}
+[3.202622] (-) TimerEvent: {}
+[3.307584] (-) TimerEvent: {}
+[3.403549] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.408731] (-) TimerEvent: {}
+[3.511913] (-) TimerEvent: {}
+[3.521171] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/my_cpp_pkg\n'}
+[3.612575] (-) TimerEvent: {}
+[3.721766] (-) TimerEvent: {}
+[3.823672] (-) TimerEvent: {}
+[3.886060] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[3.901409] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_server\x1b[0m\n'}
+[3.908378] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[3.915801] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[3.924752] (-) TimerEvent: {}
+[4.026854] (-) TimerEvent: {}
+[4.128803] (-) TimerEvent: {}
+[4.230723] (-) TimerEvent: {}
+[4.332768] (-) TimerEvent: {}
+[4.435108] (-) TimerEvent: {}
+[4.538948] (-) TimerEvent: {}
+[4.642698] (-) TimerEvent: {}
+[4.744732] (-) TimerEvent: {}
+[4.846663] (-) TimerEvent: {}
+[4.948653] (-) TimerEvent: {}
+[5.050883] (-) TimerEvent: {}
+[5.153269] (-) TimerEvent: {}
+[5.256003] (-) TimerEvent: {}
+[5.286859] (my_cpp_pkg) StdoutLine: {'line': b'[ 14%] Built target add_two_ints_server\n'}
+[5.301038] (my_cpp_pkg) StdoutLine: {'line': b'[ 28%] Built target robot_news_station\n'}
+[5.326982] (my_cpp_pkg) StdoutLine: {'line': b'[ 42%] Built target smartphone\n'}
+[5.356594] (-) TimerEvent: {}
+[5.375061] (my_cpp_pkg) StdoutLine: {'line': b'[ 57%] Built target cpp_node\n'}
+[5.457732] (-) TimerEvent: {}
+[5.504783] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop\x1b[0m\n'}
+[5.507603] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client\x1b[0m\n'}
+[5.517117] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_status_publisher\x1b[0m\n'}
+[5.558584] (-) TimerEvent: {}
+[5.660807] (-) TimerEvent: {}
+[5.763932] (-) TimerEvent: {}
+[5.870147] (-) TimerEvent: {}
+[5.978464] (-) TimerEvent: {}
+[6.080608] (-) TimerEvent: {}
+[6.182580] (-) TimerEvent: {}
+[6.284870] (-) TimerEvent: {}
+[6.386684] (-) TimerEvent: {}
+[6.488607] (-) TimerEvent: {}
+[6.590788] (-) TimerEvent: {}
+[6.695859] (-) TimerEvent: {}
+[6.798673] (-) TimerEvent: {}
+[6.838516] (my_cpp_pkg) StdoutLine: {'line': b'[ 71%] Built target add_two_ints_client\n'}
+[6.853453] (my_cpp_pkg) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable hardware_status_publisher\x1b[0m\n'}
+[6.882930] (my_cpp_pkg) StdoutLine: {'line': b'[ 92%] Built target add_two_ints_client_no_oop\n'}
+[6.899705] (-) TimerEvent: {}
+[7.001473] (-) TimerEvent: {}
+[7.102772] (-) TimerEvent: {}
+[7.205091] (-) TimerEvent: {}
+[7.306757] (-) TimerEvent: {}
+[7.407530] (-) TimerEvent: {}
+[7.508608] (-) TimerEvent: {}
+[7.610729] (-) TimerEvent: {}
+[7.712483] (-) TimerEvent: {}
+[7.813516] (-) TimerEvent: {}
+[7.914580] (-) TimerEvent: {}
+[8.015615] (-) TimerEvent: {}
+[8.090830] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target hardware_status_publisher\n'}
+[8.116539] (-) TimerEvent: {}
+[8.158445] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.217634] (-) TimerEvent: {}
+[8.320010] (-) TimerEvent: {}
+[8.421732] (-) TimerEvent: {}
+[8.523622] (-) TimerEvent: {}
+[8.625540] (-) TimerEvent: {}
+[8.727552] (-) TimerEvent: {}
+[8.828701] (-) TimerEvent: {}
+[8.856855] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[8.929634] (-) TimerEvent: {}
+[9.001720] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/my_cpp_pkg'], 'cwd': '/root/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('HOSTNAME', 'a5cb0e3d86bc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/root/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_interfaces:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_cpp_pkg:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[9.030604] (-) TimerEvent: {}
+[9.035225] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.037990] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[9.043573] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[9.049620] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[9.056606] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[9.062692] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[9.068316] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[9.073680] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher\n'}
+[9.131947] (-) TimerEvent: {}
+[9.160962] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher" to ""\n'}
+[9.163315] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[9.166628] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[9.169614] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[9.173554] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[9.188601] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[9.192094] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[9.210100] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[9.212701] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[9.215892] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[9.217931] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[9.232902] (-) TimerEvent: {}
+[9.247108] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[9.267944] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[9.269719] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[9.271251] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[9.273487] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[9.281610] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[9.333801] (-) TimerEvent: {}
+[9.436715] (-) TimerEvent: {}
+[9.538693] (-) TimerEvent: {}
+[9.639615] (-) TimerEvent: {}
+[9.741651] (-) TimerEvent: {}
+[9.842763] (-) TimerEvent: {}
+[9.944678] (-) TimerEvent: {}
+[9.995674] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[10.004850] (-) EventReactorShutdown: {}

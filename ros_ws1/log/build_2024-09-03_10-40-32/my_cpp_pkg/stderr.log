@@ -1,0 +1,45 @@
+[33mCMake Warning (dev) at CMakeLists.txt:30 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /root/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:33 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /root/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:36 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:[m[K In constructor ‘[01m[KHardwareStatusPublisher::HardwareStatusPublisher()[m[K’:
+[01m[K/root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+    9 |             [01;31m[Kpub_[m[K=this->create_publisher<my_robot_interfaces::msg::HardwareStatus>(
+      |             [01;31m[K^~~~[m[K
+[01m[K/root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:11:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   11 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1),
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Ktimer_t[m[K
+[01m[K/root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid HardwareStatusPublisher::publishHardwareStatus()[m[K’:
+[01m[K/root/ros2_ws/src/my_cpp_pkg/src/hw_status_publisher.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   23 |             [01;31m[Kpub_[m[K->publish(msg);
+      |             [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/hardware_status_publisher.dir/build.make:76: CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/hardware_status_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

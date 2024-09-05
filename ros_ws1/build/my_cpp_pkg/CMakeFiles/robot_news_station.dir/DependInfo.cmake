@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/samuel/Learning_ROS/ros_ws1/src/my_cpp_pkg/src/robot_news_station.cpp" "CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o" "gcc" "CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o.d"
+  "/root/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp" "CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o" "gcc" "CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o.d"
   )
 
 # Targets to which this target links.
