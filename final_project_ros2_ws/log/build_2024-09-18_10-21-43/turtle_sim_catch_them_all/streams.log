@@ -1,0 +1,18 @@
+[0.527s] Invoking command in '/home/samuel/Learning_ROS/final_project_ros2_ws/build/turtle_sim_catch_them_all': PYTHONPATH=/home/samuel/Learning_ROS/final_project_ros2_ws/build/turtle_sim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samuel/Learning_ROS/final_project_ros2_ws/install/turtle_sim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/samuel/Learning_ROS/final_project_ros2_ws/build/turtle_sim_catch_them_all/build --no-deps symlink_data
+[0.736s] running develop
+[0.861s] running egg_info
+[0.862s] writing turtle_sim_catch_them_all.egg-info/PKG-INFO
+[0.862s] writing dependency_links to turtle_sim_catch_them_all.egg-info/dependency_links.txt
+[0.862s] writing entry points to turtle_sim_catch_them_all.egg-info/entry_points.txt
+[0.862s] writing requirements to turtle_sim_catch_them_all.egg-info/requires.txt
+[0.862s] writing top-level names to turtle_sim_catch_them_all.egg-info/top_level.txt
+[0.863s] reading manifest file 'turtle_sim_catch_them_all.egg-info/SOURCES.txt'
+[0.864s] writing manifest file 'turtle_sim_catch_them_all.egg-info/SOURCES.txt'
+[0.865s] running build_ext
+[0.865s] Creating /home/samuel/Learning_ROS/final_project_ros2_ws/install/turtle_sim_catch_them_all/lib/python3.10/site-packages/turtle-sim-catch-them-all.egg-link (link to .)
+[0.866s] Installing turtle_controller script to /home/samuel/Learning_ROS/final_project_ros2_ws/install/turtle_sim_catch_them_all/lib/turtle_sim_catch_them_all
+[0.866s] Installing turtle_spawner script to /home/samuel/Learning_ROS/final_project_ros2_ws/install/turtle_sim_catch_them_all/lib/turtle_sim_catch_them_all
+[0.866s] 
+[0.866s] Installed /home/samuel/Learning_ROS/final_project_ros2_ws/build/turtle_sim_catch_them_all
+[0.866s] running symlink_data
+[0.885s] Invoked command in '/home/samuel/Learning_ROS/final_project_ros2_ws/build/turtle_sim_catch_them_all' returned '0': PYTHONPATH=/home/samuel/Learning_ROS/final_project_ros2_ws/build/turtle_sim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samuel/Learning_ROS/final_project_ros2_ws/install/turtle_sim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/samuel/Learning_ROS/final_project_ros2_ws/build/turtle_sim_catch_them_all/build --no-deps symlink_data
