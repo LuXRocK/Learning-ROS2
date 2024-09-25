@@ -1,1 +1,0 @@
-/home/samuel/Learning_ROS/final_project_ros2_ws/src/turtle_sim_catch_them_all/setup.py

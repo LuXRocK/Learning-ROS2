@@ -1,0 +1,31 @@
+[0.011s] Invoking command in '/home/samuel/Learning_ROS/final_project_ros2_ws/build/turtlesim_project_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/final_project_ros2_ws/install/turtle_sim_catch_them_all:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/samuel/Learning_ROS/final_project_ros2_ws/src/turtlesim_project_interfaces -DCMAKE_INSTALL_PREFIX=/home/samuel/Learning_ROS/final_project_ros2_ws/install/turtlesim_project_interfaces
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.226s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.320s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.327s] -- Detecting CXX compiler ABI info
+[0.408s] -- Detecting CXX compiler ABI info - done
+[0.422s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.422s] -- Detecting CXX compile features
+[0.423s] -- Detecting CXX compile features - done
+[0.432s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.579s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.692s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.710s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.763s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.953s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.953s]   ament_package_xml() package name 'turtlesim_project_interfaces' in
+[0.954s]   '/package.xml' does not match current PROJECT_NAME 'my_robot_interfaces'.
+[0.954s]   You must call project() with the same package name before.
+[0.954s] Call Stack (most recent call first):
+[0.954s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.954s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.954s] 
+[0.954s] [0m
+[0.954s] -- Configuring incomplete, errors occurred!
+[0.954s] See also "/home/samuel/Learning_ROS/final_project_ros2_ws/build/turtlesim_project_interfaces/CMakeFiles/CMakeOutput.log".
+[0.963s] Invoked command in '/home/samuel/Learning_ROS/final_project_ros2_ws/build/turtlesim_project_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samuel/Learning_ROS/final_project_ros2_ws/install/turtle_sim_catch_them_all:/home/samuel/Learning_ROS/ros_ws1/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/samuel/Learning_ROS/final_project_ros2_ws/src/turtlesim_project_interfaces -DCMAKE_INSTALL_PREFIX=/home/samuel/Learning_ROS/final_project_ros2_ws/install/turtlesim_project_interfaces
